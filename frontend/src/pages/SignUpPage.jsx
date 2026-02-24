@@ -1,10 +1,10 @@
-import React, { use } from "react";
+import React from "react";
 import { ShipWheelIcon } from "lucide-react";
 import { Link } from "react-router";
 import { useMutation , useQueryClient } from "@tanstack/react-query";
 
 import { signUp } from "../lib/api";
-import useSignUp from "../hooks/useSignup";
+import useSignUp from "../hooks/useSignUp";
 
 const SignUpPage = () => {
   const [signupData, setSignupData] = React.useState({
